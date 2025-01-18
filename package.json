@@ -1,0 +1,29 @@
+{
+  "name": "@guillaumepiot/toolkit",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "Guillaume Piot",
+  "license": "ISC",
+  "description": "Toolkit for Next.js app development",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/guillaumepiot/toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guillaumepiot/toolkit/issues"
+  },
+  "homepage": "https://github.com/guillaumepiot/toolkit#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
